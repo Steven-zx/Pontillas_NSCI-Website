@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    color: #003366;
+    font-family: Montserrat;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.reflection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 1rem;
+    height: 80vh;
+}
+
+.selfPic {
+    width: 13rem;
+    border-radius: 100px;
+
+}
+
+.description {
+    width: 40vw;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.posters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster {
+    width: 25rem;
+    height: 25rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.letters {
+    width: 4.8rem;
+}
+
+.science {
+    width: 4.8rem;
+    border-top-left-radius: 10px;
+}
+
+.math {
+    width: 4.8rem;
+    border-top-right-radius: 10px;
+}
